@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.967);
+  color: silver;
+  font-size: 3vh;
+}
+.details {
+  position: fixed;
+  /* top: 30%;
+  left: 15%; */
+  width: 100%;
+  height: 85%;
+  color: silver;
+  /* border: 0.5px silver;
+  border-style:dotted; */
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.979);
+  font-size: 4vh;
+}
+.logo-holder {
+  position: relative;
+  top: 25%;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.linkdin {
+  width: 2.5%;
+}
+.gitHub {
+  width: 3%;
+}
+.profile-details-name {
+  position: relative;
+  top: 30%;
+  right: 20%;
+}
+.pic-background {
+  position: fixed;
+  bottom: 23%;
+  right: 13.25%;
+  height: 40%;
+  width: 30%;
+  background-color: #5cb8b0;
+  z-index: -2;
+  box-shadow: 0 5px 5px 5px #126c64;
+  border-radius: 10%;
+}
+.pic {
+  position: fixed;
+  /* width:15%; */
+  bottom: 20%;
+  right: 16%;
+  height: 50%;
+  z-index: -1;
+  box-shadow: 0 5px 5px 5px #126c64;
+  border-radius: 20%;
+}
+.filter {
+  height: 80%;
+  width: 80%;
+  background-color: brown;
+  transform: translate(11%, -20%);
+  z-index: 2;
+  opacity: 0.1;
+}
+.highlighted-text {
+  background-color: silver;
+  color: black;
+}
+
+.me {
+  position: relative;
+  left: 6%;
+  font-family: Yanone Kaffeesatz;
+  font-size: 2.5vw;
+  color: #6f63f7;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    
+
+}
+.email {
+    position: relative;
+    left:20%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:flex-end;
+  color: silver;
+  font-family: Yanone Kaffeesatz;
+  font-size: 2.5vh;
+}

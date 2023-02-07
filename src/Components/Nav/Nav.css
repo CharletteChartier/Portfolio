@@ -1,0 +1,40 @@
+.sidebar {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5vw;
+  background-color: rgba(0, 0, 0, 0.962);
+  color: silver;
+}
+.navLink {
+  color: silver;
+  opacity: 1;
+  text-decoration: none;
+}
+.navLink:hover {
+  color: silver;
+}
+
+.dropdown:hover {
+  color: silver;
+}
+.myBackground{
+    /* border-radius: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+    width: 8.5vw;
+    height: 15vh;
+    /* z-index: 2; */
+}
+.navImage {
+  /* border-radius: 20%; */
+  width: 8vw;
+  height: 15vh;
+}
