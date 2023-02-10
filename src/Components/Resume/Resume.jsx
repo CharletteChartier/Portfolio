@@ -1,39 +1,32 @@
 import { NavLink } from "react-router-dom";
 import "./Resume.css";
+// import ResumePDF from "./Resume/ResumePDF";
 
 const Resume = () => {
+
   // const handleClick = (e) => {
-  //   // using Java Script method to get PDF file
   //   e.preventDefault();
-  //   fetch("https://docs.google.com/document/d/1abJY11jCRLYOE7HqLKnRZ7FHJXvoo31IL2IgOeqThT4",).then(response => {
-  //       response.blob().then(blob => {
-          
-  //           // Creating new object of PDF file
-  //           const fileURL = window.URL.createObjectURL(blob);
-  //           // Setting various property values
-  //           let alink = document.createElement('a');
-  //           alink.href = fileURL;
-  //           alink.download = 'https://docs.google.com/document/d/1abJY11jCRLYOE7HqLKnRZ7FHJXvoo31IL2IgOeqThT4';
-  //           alink.click();
-  //       })
-  //   })
-// }
-  return (
+  //   fetch(ResumePDF)
+  // }
+  
+
+return (
     <div>
+      
+          {/* <button className="download" onClick={handleClick}>
+            Download
+          </button>
+          */}
        <a className="navLink-download" href="https://docs.google.com/document/d/1abJY11jCRLYOE7HqLKnRZ7FHJXvoo31IL2IgOeqThT4" target="_blank"  rel="noreferrer"
               alt="Resume Link">DownLoad
               </a>
       <div className="screen-cover">
         <div className="resume-container">
-          <h1 className="name">Charlette Chartier</h1>
-          {/* <button className="download" onClick={handleClick}>
-            Download
-          </button> */}
-         
+        <h1 className="name">Charlette Chartier</h1>
           <p className="content">
             <NavLink className="navLink-email" to="/contact">
-              charchartier287@gmail.com{" "}
-            </NavLink>{" "}
+              charchartier287@gmail.com
+            </NavLink>
             | 602-339-4674 | AZ
           </p>
           <h2 className="secondary-headings">Professional Summary</h2>
@@ -87,7 +80,8 @@ const Resume = () => {
         </div>
       </div>
     </div>
-  );
-};
 
-export default Resume;
+  );
+}
+
+export default Resume

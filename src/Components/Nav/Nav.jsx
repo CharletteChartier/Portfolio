@@ -8,8 +8,9 @@ const Nav = () => {
   return (
     <nav className="sidebar">
     
-        <NavLink to='/landingPage' hidden={true}></NavLink>
+  
         <NavLink className="navLink"  to="/resume">~Chartier~</NavLink>
+        <NavLink className="navLink"  to="/skill">Skill</NavLink>
       <NavLink className="navLink" to="/home">
         Home
       </NavLink>

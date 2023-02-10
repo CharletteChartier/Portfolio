@@ -1,7 +1,7 @@
 import "./Home.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import Photo from "../images/background3.jpg";
 // import Linkdin from "../images/linkdin-logo.png";
@@ -48,6 +48,7 @@ const Home = () => {
       <div className="email">
       <NavLink className="navLink" to="/contact">charchartier287@gmail.com </NavLink>
             </div>
+            <Outlet />
     </div>
   );
 };

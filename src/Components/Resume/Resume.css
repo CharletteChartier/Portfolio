@@ -1,9 +1,12 @@
 body{
-    height:fit-content;
+    position: fixed;;
+    height:100vh;
 
 }
 .screen-cover{
-    height:125vh;
+    position: absolute;
+    bottom:0;
+    height:100vh;
 }
 .resume-container{
     position: absolute;

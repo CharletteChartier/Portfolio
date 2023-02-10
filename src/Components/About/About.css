@@ -5,3 +5,18 @@
     background-color:rgba(0, 0, 0, 0.805);
     font-family:  Yanone Kaffeesatz;
 }
+.about-container{
+    position: fixed;
+    left:30%;
+    top:15%;
+    padding:1vw;
+    text-align: justify;
+    background-color: #0e0f14c4;
+    width:40%;
+    height:75vh;
+    font-size: 3vh;
+    color: #126c64;
+}
+.about-title{
+    text-align: center;
+}

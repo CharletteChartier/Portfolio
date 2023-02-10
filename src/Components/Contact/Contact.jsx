@@ -21,7 +21,7 @@ export const Contact = () => {
         <>
       
       <form className='form-wrapper' ref={form} onSubmit={sendEmail}>
-        <h1>Contact Me</h1>
+        <h1 className='form-title'>Contact Me</h1>
         <div className='form-group'>
         <label id='name-label'className='label'>
           Name

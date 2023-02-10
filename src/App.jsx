@@ -5,13 +5,14 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import LandingPage from './Components/Landing/Landing'
+
 import Home from './Components/Home/Home';
 import Nav from './Components/Nav/Nav';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Resume from "./Components/Resume/Resume";
-;
+import Skill from "./Components/Skills/Skill";
+
 function App() {
 ;
   return (
@@ -20,12 +21,12 @@ function App() {
       <Nav />
      
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+       
         <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
          <Route path="/contact" element={<Contact />} />
          <Route path="/resume" element={<Resume />} /> 
-       
+        <Route path="/skill" element={<Skill />} />
       </Routes>
     </Router>
   );
