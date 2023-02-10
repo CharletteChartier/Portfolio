@@ -1,18 +1,20 @@
 import "./Home.css";
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import Photo from "../images/PortfolioPic.jpg";
-import Linkdin from "../images/linkdin-logo.png";
-import GitHub from "../images/gitHubLogo.png";
+import Photo from "../images/background3.jpg";
+// import Linkdin from "../images/linkdin-logo.png";
+// import GitHub from "../images/gitHubLogo.png";
 
 const Home = () => {
   return (
     <div>
-      <Outlet />
-      <div className="main-container">
+    {/* //   <Outlet /> */}
+      <div className="screen-cover">
         <div className="parent">
           <div className="details">
+            
             
               <div className="profile-details-name">
                 <span className="primary-text">
@@ -32,24 +34,20 @@ const Home = () => {
                     loop: true,
                   }}
                 />
+                <div className="logo-holder">
+        
+              </div>
               </div>
               <div className="pic-background">
                 <img className="pic" src={Photo} alt="Charlette" />
-                <div className="filter"></div>
+               
               </div>
-            
           </div>
         </div>
       </div>
-      <footer>
       <div className="email">
-              <span className="email-text">charchartier287@gmail.com </span>
-              <div className="logo-holder">
-              <img className="linkdin" src={Linkdin} alt="Linkdin Link"></img>
-              <img className="gitHub" src={GitHub} alt="GitHub Link"></img>
-              </div>
+      <NavLink className="navLink" to="/contact">charchartier287@gmail.com </NavLink>
             </div>
-            </footer>
     </div>
   );
 };

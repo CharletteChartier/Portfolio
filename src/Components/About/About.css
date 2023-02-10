@@ -1,0 +1,7 @@
+.screen-cover{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0, 0, 0, 0.805);
+    font-family:  Yanone Kaffeesatz;
+}

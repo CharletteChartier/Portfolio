@@ -2,72 +2,70 @@ body {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.967);
   color: silver;
-  font-size: 3vh;
-}
-.details {
-  position: fixed;
-  /* top: 30%;
-  left: 15%; */
-  width: 100%;
-  height: 85%;
-  color: silver;
-  /* border: 0.5px silver;
-  border-style:dotted; */
-  border-radius: 10%;
-  background-color: rgba(0, 0, 0, 0.979);
   font-size: 4vh;
+  background-image: url(../images/background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.logo-holder {
-  position: relative;
-  top: 25%;
-  display: flex;
-  text-align: center;
-  flex-direction: row;
-  justify-content: center;
+.screen-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: silver;
+  background-color: rgba(0, 0, 0, 0.97);
+  font-size: 4vh;
+  
 }
-.linkdin {
-  width: 2.5%;
+.profile-details-name{
+  position:fixed;
+  /* bottom: 40%; */
+  left:30%;
+  top:20%;
+  width:37%;
+z-index: 2;
 }
-.gitHub {
-  width: 3%;
+
+.navLink {
+color: silver;
+opacity: 1;
+text-decoration: none;
 }
-.profile-details-name {
-  position: relative;
-  top: 30%;
-  right: 20%;
+.navLink:hover {
+color: silver;
+}
+
+.dropdown:hover {
+color: silver;
 }
 .pic-background {
   position: fixed;
-  bottom: 23%;
-  right: 13.25%;
-  height: 40%;
-  width: 30%;
+  top:35%;
+  left: 45%;
+  height: 35%;
+  width: 10%;
   background-color: #5cb8b0;
-  z-index: -2;
+  transform: rotate(45deg);
   box-shadow: 0 5px 5px 5px #126c64;
   border-radius: 10%;
 }
 .pic {
   position: fixed;
-  /* width:15%; */
-  bottom: 20%;
-  right: 16%;
-  height: 50%;
+  width:100%;
+  /* bottom: 5%; */
+  /* top:10%; */
+  right: 5%;
+  height: 100%;
   z-index: -1;
+  transform: rotate(-45deg);
   box-shadow: 0 5px 5px 5px #126c64;
   border-radius: 20%;
+  opacity: 0.95;
 }
-.filter {
-  height: 80%;
-  width: 80%;
-  background-color: brown;
-  transform: translate(11%, -20%);
-  z-index: 2;
-  opacity: 0.1;
-}
+
 .highlighted-text {
-  background-color: silver;
+  background-color: #126c64;
   color: black;
+  border-radius: 10%;
 }
 
 .me {
@@ -77,19 +75,11 @@ body {
   font-size: 2.5vw;
   color: #6f63f7;
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    
-
-}
 .email {
-    position: relative;
-    left:20%;
-    display: flex;
-    /* flex-direction: row; */
-    justify-content:flex-end;
-  color: silver;
+  position: absolute;
+  bottom: 7.5%;
+  right: 7%;
+  color: #126c64;
   font-family: Yanone Kaffeesatz;
-  font-size: 2.5vh;
+  font-size: 3vh;
 }
