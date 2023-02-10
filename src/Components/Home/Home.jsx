@@ -3,9 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import Photo from "../images/background3.jpg";
-// import Linkdin from "../images/linkdin-logo.png";
-// import GitHub from "../images/gitHubLogo.png";
+import Me from "../images/background3.jpg";
 
 const Home = () => {
   return (
@@ -25,10 +23,10 @@ const Home = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      "I'm a Front End Developer",
+                      "I'm a Certified Front End Developer",
                       "I love What I Do",
                       "And",
-                      "I Love The Constant Evolution Of Code",
+                      "I Enjoy The Constantly Evolving Code",
                     ],
                     autoStart: true,
                     loop: true,
@@ -39,7 +37,7 @@ const Home = () => {
               </div>
               </div>
               <div className="pic-background">
-                <img className="pic" src={Photo} alt="Charlette" />
+                <img className="pic" src={Me} alt="Charlette" />
                
               </div>
           </div>

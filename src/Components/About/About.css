@@ -1,3 +1,4 @@
+
 .screen-cover{
     position:absolute;
     width:100vw;
@@ -16,6 +17,7 @@
     height:75vh;
     font-size: 3vh;
     color: #126c64;
+    
 }
 .about-title{
     text-align: center;
